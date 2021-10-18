@@ -1,0 +1,119 @@
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  color: green;
+  font-size: 15px;
+}
+
+button {
+  background-color: black;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 4px;
+  color: green;
+  font-size: 15px;
+}
+
+/* p {
+    font-size
+} */
+
+/* LOGIN PAGE */
+#MainframeP {
+  margin: 20vw 0vw 0vw 0vw;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.LoginInputs {
+  font-size: 15px;
+  height: 4vw;
+  /* min-width: 10vw; */
+  width: 20vw;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 4px;
+  margin: 8px 39vw; /* 39 not 40 bc border */
+  padding: 0;
+  color: green;
+  background-color: black;
+}
+
+::placeholder {
+  color: green;
+}
+
+#LoginUsername {
+  float: left;
+}
+
+#LoginPassword {
+  float: left;
+}
+
+#LoginButton {
+  float: left;
+  width: 20vw;
+  margin: 8px 39vw;
+}
+
+#IncorrectDetails {
+  float: left;
+  /* width: 100%; */
+  width: 40vw;
+  text-align: center;
+  margin: 8px 30vw;
+  height: 8px;
+  /* border: 1px solid black; */
+}
+
+#CrackPwd {
+  float: left;
+  width: 25vw;
+  text-align: center;
+  background-color: black;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 4px;
+  margin: 15px 37vw;
+  white-space: nowrap;
+}
+
+#CrackPwdSuccess {
+  float: left;
+  width: 98vw;
+  text-align: center;
+  /* margin: 5px 40vw; */
+}
+
+/* MAIN PAGE */
+
+#Scrollable {
+  float: left;
+  width: 75vw;
+  border: none;
+}
+
+#InputBox {
+  background-color: rgb(31, 30, 30);
+  border-right: 1px solid rgb(31, 30, 30);
+  border-bottom: 1px solid rgb(31, 30, 30);
+  color: green;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(29, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(71, 68, 68);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(46, 45, 45);
+}

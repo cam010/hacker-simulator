@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+#div {
+  color: green;
+  max-height: 40vw;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#AutoCode {
+  position: absolute; /* fix */
+  top: 80%; /* fix */
+  width: 20vw;
+  margin: 5vw 40vw;
+  height: 3vw;
+}
+
+button {
+  background-color: black;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 4px;
+  color: green;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(29, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(71, 68, 68);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(46, 45, 45);
+}
